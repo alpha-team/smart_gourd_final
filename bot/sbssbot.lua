@@ -234,8 +234,7 @@ function create_config( )
     "groupmanager",
     "hackernews",
     "hello",
-    "id"
-    "imdb",
+    "id",
     "img_google",
     "info",
     "invite",
