@@ -235,7 +235,6 @@ function create_config( )
     "hackernews",
     "hello",
     "id"
-    "images",
     "imdb",
     "img_google",
     "info",
