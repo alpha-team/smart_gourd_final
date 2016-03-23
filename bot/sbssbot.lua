@@ -208,54 +208,87 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "SUDO",
-    "addplug",
-    "admin",
-    "all",
-    "anti_spam",
+   "9gag",
+    "add_erfan",
+    "add_plugins",
     "banhammer",
+    "boobs",
     "broadcast",
-    "calc",
-    "chat",
+    "bugzilla",
+    "calculator",
+    "channels",
+    "chuck_norris",
+    "danbooru",
+    "domaintools",
     "download_media",
     "echo",
-    "feedback",
-    "filterword",
+    "eur",
+    "exchange",
+    "expand",
+    "face",
     "get",
-    "img2sticker",
+    "giphy",
+    "gnuplot",
+    "google",
+    "gps",
+    "groupmanager",
+    "hackernews",
+    "hello",
+    "id"
+    "images",
+    "imdb",
+    "img_google",
     "info",
-    "ingroup",
-    "inpm",
-    "inrealm",
-    "insudo",
     "invite",
+    "isX",
     "isup",
-    "leave_ban",
-    "lock_badw",
-    "lock_english",
-    "lock_join",
-    "lock_link",
-    "lock_media",
-    "lock_share",
-    "map",
+    "join",
+    "location",
+    "lock_emoji",
+    "lyrics",
+    "magic8ball",
     "media",
-    "mywai",
-    "owners",
+    "media_handler",
+    "meme",
+    "minecraft",
+    "moderation",
+    "pili",
     "plugins",
-    "s2a",
-    "say",
-    "send",
+    "pokedex",
+    "qr",
+    "quotes",
+    "rae",
+    "remind",
+    "roll",
+    "rss",
+    "search_youtube",
+    "searchfilm",
+    "service_entergroup",
+    "service_template",
     "set",
-    "share",
-    "spammer",
     "stats",
-    "telesticker",
-    "text",
+    "steam",
+    "sudo",
+    "tex",
+    "text_voice",
     "time",
+    "torrent_search",
+    "translate",
+    "trivia",
+    "tweet",
+    "twitter",
+    "twitter_send",
+    "version",
+    "vote",
+    "weather",
     "webshot",
-    "welcome"
+    "wiki",
+    "xkcd",
+    "xy",
+    "yoda",
+    "youtube",
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {89122894},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V3
@@ -279,7 +312,7 @@ function create_config( )
 See Patterns In Github
 ]],
     help_text = [[
-  لیست دستورات :
+ لیست دستورات :
 __________________________
 اخراج [آیدی،کد،ریپلای] 
 شخص مورد نظر از گروه اخراج ميشود.
@@ -350,7 +383,9 @@ __________________________
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
-Writed by SBSS Team
+Writed by erfan0953
+]]
+
 ]]
   }
   serialize_to_file(config, './data/config.lua')
