@@ -219,7 +219,7 @@ function create_config( )
     "download_media",
     "invite"
     },
-    sudo_users = {67559249,71951412,0,tonumber(our_id)},--Sudo users
+    sudo_users = {89122894(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -246,107 +246,110 @@ Our channels
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+فردی را از گروه اخراج می کند شما می توانید با استفاده از ایدی و یوز نیم و ریپلی این دستور را اجرا کنید 
 
 !ban [ username|id]
-You can also do it by reply
+فردی را از گروه مسدود می کند شما می توانید با استفاده از ریپلی و یوزنیم و ایدی این دستور را عملی کنید
 
 !unban [id]
-You can also do it by reply
+لغو مسدودیت فردی از گروهشما می توانید با استفاده از ریپلی و یوزنیم و ایدی این دستور را عملی کنید
 
 !who
-Members list
+لیست اعضاء
 
 !modlist
-Moderators list
+لیست مدیران
 
 !promote [username]
-Promote someone
+ارتقاء مقام شما می توانید با استفاده از ریپلی و یوزنیم و ایدی این دستور را عملی کنید
 
 !demote [username]
-Demote someone
+گرفتن مقام از فردی  شما می توانید با استفاده از ریپلی و یوزنیم و ایدی این دستور را عملی کنید
 
 !kickme
-Will kick user
+اخراج فردی که از این دستور استفاده می کند
 
 !about
-Group description
+توضیحات گروه
 
 !setphoto
-Set and locks group photo
+تنظیم یا بروزرسانی عکس گروه
 
 !setname [name]
-Set group name
+تغییر نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+ایدی فردی که از این دستور استفاده می کند شما می توانید با استفاده از ریپلی و یوزنیم و ایدی این دستور را عملی کنید
 
 !help
+نمایش همین لیست
 
 !lock [member|name]
-Locks [member|name] 
+قفل کردن اعضا و اسم گروه
 
 !unlock [member|name|photo]
-Unlocks [member|name|photo]
+باز کردن اعضا و اسم و عکس
 
 !set rules <text>
-Set <text> as rules
+تنظیم قوانین در  گروه قوانین خود را  در <> بنویسید
 
 !set about <text>
-Set <text> as about
+تنظیم توضیحات گروه متن خود را  در <> بنویسید
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساخت لینک جدید
 
 !link
-returns group link
+تحویل لینک
 
 !owner
-returns group owner id
+ایدی صاحب گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم صاحب جدید گروه شما می توانید با استفاده از ریپلی و یوزنیم و ایدی این دستور را عملی کنید
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم فلود گروه
 
 !stats
-Simple message statistics
+اتفاقات گروه در پیام ساده 
 
 !save [value] <text>
-Save <text> as [value]
+ذخیره یک متن
 
 !get [value]
-Returns text of [value]
+نمایش متن سیو شده
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن لیست مدیران| قوانین|توضیحات
 
 !res [username]
-returns user id
+نمایش شناسه کاربر
 "!res @username"
 
 !log
-will return group logs
+اتفاقات گروه در یک فایل
 
 !banlist
-will return group ban list
+لیست  افراد مسدود از گروه
 
-**U can use both "/" and "!" 
+ترجمه از erfan 0953 
+
+**شما باید از / و!برای دستورات استفاده کنید
 
 
-*Only owner and mods can add bots in group
+*فقط سودو ها می توانند روبات را در گروه ادد کنند
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+*مدیر ها می توانick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings  ند از دستور های  استفاده نمایند 
 
-*Only owner can use res,setowner,promote,demote and log commands
+*تنها صاحبان گروres,setowner,promote,demote and logه می توانند از  دستورات استفاده نمایند
 
 ]]
 
