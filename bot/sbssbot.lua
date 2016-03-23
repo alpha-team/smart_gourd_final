@@ -415,7 +415,9 @@ will return group ban list
 *Only owner can use res,setowner,promote,demote and log commands
 _______________________________
 Writed by erfan0953
+
 ]]
+
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
