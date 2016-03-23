@@ -416,8 +416,6 @@ will return group ban list
 _______________________________
 Writed by erfan0953
 ]]
-
-]]
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
