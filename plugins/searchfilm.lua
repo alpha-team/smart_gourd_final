@@ -33,7 +33,7 @@ end
 return {
   description = "IMDB plugin for telegram",
   usage = "!imdb [movie]",
-  patterns = {"^!film (.+)"},
+  patterns = {"^!imdb (.+)"},
   run = run
 }
 
