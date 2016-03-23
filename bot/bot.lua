@@ -339,7 +339,71 @@ Commands list :
 !banlist
 لیست  افراد مسدود از گروه
 
-ترجمه از erfan 0953 
+!9gag
+نمایش تصاویر تصادفی
+
+!addsudo
+اد کردن سودو ربات در گروه
+
+!addplugin [plug]
+افزودن پلاگین به ربات
+
+!superban [id|username|reply]
+مسدود از تمام گروه ها شما می توانید با استفاده از ریپلی و یوزنیم و ایدی این دستور را عملی کنید
+
+!boobs
+
+!broadcast [msg]
+فرستادن پیام به گروه ها
+
+!bugzilla
+
+!cal [عدد]
+ماشین حساب 
+
+!channel enable & disable
+
+!chuck
+فرستادن جک 
+
+!echo کلمه 
+تکرار  کلمه مورد نظر
+
+!face
+
+!giphy name
+سرچ گیف
+
+!google [name]
+سرچ در گوگل
+
+!gps [name city]
+نقشه مکان مورد نظر
+
+!hacknews
+
+say hello to [name]
+سلام کردن به فرد
+
+!imdb [name movie]
+سرچ فیلم
+
+!info [reply|id|username]
+درباره ی فرد
+
+!invite [username|id]
+دعوت کردن فرد
+
+!time [name city]
+نمایش ساعت دقیق
+
+!voice [tex]
+تبدیل متن به ویسس 
+
+!translate [en text]
+معنی کلمه انگیلیسی به فارسی
+
+ترجمه و ساخت هلپ از erfan0953
 
 **شما باید از / و!برای دستورات استفاده کنید
 
