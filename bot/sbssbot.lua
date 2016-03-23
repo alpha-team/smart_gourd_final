@@ -310,109 +310,185 @@ function create_config( )
 See Patterns In Github
 ]],
     help_text = [[
+    in the name of god
+    
  لیست دستورات :
 __________________________
 
 !kick [username|id]
-You can also do it by reply
+حذف فردی از گروه  با استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
 
 !ban [ username|id]
-You can also do it by reply
+این دستور باعث مسدود شد فردی از گروه می شود با استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
 
 !unban [id]
-You can also do it by reply
+رفع مسدودیت فرد با استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
 
 !who
-Members list
+لیست ساده از افراد گروه
 
 !modlist
-Moderators list
+لیست مدیران
 
 !promote [username]
-Promote someone
+ارتقاء مقام عضوء گروه با استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
 
 !demote [username]
-Demote someone
+گرفتن مقام از عضوء گروهبا استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
 
 !kickme
-Will kick user
+اخراج فردی که از این دستور استفاده می ند 
 
 !about
-Group description
+توضیحات گروه
 
 !setphoto
-Set and locks group photo
+تنظیم ویا بروز رسانی عکس گروه
 
 !setname [name]
-Set group name
+تغییر نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+با استفاده از این دستور ایدی گروه را بیابید
 
 !help
+نمایش همین لیست
 
 !lock [member|name]
-Locks [member|name] 
+قفل |اعضاء|نام گروه
 
 !unlock [member|name|photo]
-Unlocks [member|name|photo]
+باز کردن قفل |اعضاء|نام گروه|عکس گروه
 
 !set rules <text>
-Set <text> as rules
+تنظیم قوانین گروه <متن> 
 
 !set about <text>
-Set <text> as about
+توضیحات گروه <متن>
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساخت لینک جدید
 
 !link
-returns group link
+لینک
 
 !owner
-returns group owner id
+ایدی صاحب گروه
 
 !setowner [id]
-Will set id as owner
+دادن مالکیت گروه فرد دیگر با استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم فلود گروه
 
 !stats
-Simple message statistics
+اتفاقات گروه 
 
 !save [value] <text>
-Save <text> as [value]
+سیو متن مورد نظر [نام متن]و<خود متن>
 
 !get [value]
-Returns text of [value]
+تحویل دادن متنی که سیو شده است [نام متن]
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن لیست مدیران|توضیحات|قوانین
 
 !res [username]
-returns user id
-"!res @username"
+نمایش ایدی
 
 !log
-will return group logs
+اتفاقات گروه
 
 !banlist
-will return group ban list
+لیست مسدود شدگان
 
-**U can use both "/" and "!" 
+!9gag
+نمایش تصادفی عکس
 
-*Only owner and mods can add bots in group
+!addsudo
+افزودن مالک ربات به گروه
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+!addplugins
+افزودن پلاگین به ربات
 
-*Only owner can use res,setowner,promote,demote and log commands
+!superban
+مسدود شدن از همه گروه ها با استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
+
+!boobs
+
+!broadcast [msg]
+ارسال متن پیام به گروه های دیگر
+
+!calc [عدد]
+ماشین حساب
+
+!echo [text]
+تکرار متن توسط ربات
+
+!google [text]
+سرچ در موتور جستجوی گوگل
+
+!gps [palace name]
+
+!hackernews
+
+!info
+اطلاعات درباره ی فرد مورد نظر با استفاده از ریپلی و ایدی و یوزر نیم می توان این دستور را عملی کرد
+
+!join [idchat]
+افزودن به چت مورد نظر
+
+!voice
+تبدیل متن به ویس
+
+!version
+نمایش نسخه ی ربات
+
+!gif [text]
+سرچ گیف
+
+!location [palace name]
+نمایش نقشه مکان مورد نظر
+
+!time
+نمایش ساعت دقیق
+
+!weather [cityname]
+نمایش اپ و هوای شهر مورد نظر
+
+!webshot [https://?site adress]
+نمایش صفحه وب مورد نظر
+
+!translate [en text]
+نمایش معنی  فارسی کلمه انگیلیسی
+
+!imdb [name movie]
+جستجو گر فیلم
+
+!wiki [text]
+جستجوگر ویکی پدیا
+
+!channels disable|enable
+
+say hello to [name]
+ربات به فرد مورد نظر سلام می کند
+
+
+**شما باید برای اجرای دستورات از ! استفاده نمایید و در اجرا بعضی از دستورات می تواننید از / هم استفاده کنید
+
+*تنها مدیران و صاحبان گروه می توانند ربات ها را در گروه اد کنند
+
+*تنها دستوری که نیازی به ! یا / ندارد دستور اخر یعنی say hello to name می باشد
+
+*بعضی از  دستورات نیاز به مقام بالاتر از مدیر گروه می خواهد
+
+*بعضی از دستورات به مقام بالاتر از صاحب گروه یعنی سودو نیاز مند است.
 _______________________________
 Writed by erfan0953
 
